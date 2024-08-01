@@ -3,7 +3,10 @@ import React from "react";
 // import UseRef from "./component/UseRef.tsx";
 // import UseLayoutEffect from "./component/UseLayoutEffect.tsx";
 // import UseMemo from "./component/UseMemo.tsx";
-import UseCallBack from "./component/UseCallback_Hook/UseCallBack.tsx";
+// import UseCallBack from "./component/UseCallback_Hook/UseCallBack.tsx";
+// import UseFetchCustomHook from "./component/UseFetchCustomHook.tsx";
+import UseFetchCustomHookTest from "./component/UseFetchCustomHookTest.tsx";
+
 const App = () => {
   return (
     <div>
@@ -11,7 +14,10 @@ const App = () => {
       {/* <UseRef /> */}
       {/* <UseLayoutEffect /> */}
       {/* <UseMemo /> */}
-      <UseCallBack />
+      {/* <UseCallBack /> */}
+      {/* <UseFetchCustomHook url={"https:dummyjson.com/products"} option={"d"} />
+       */}
+      <UseFetchCustomHookTest />
     </div>
   );
 };
